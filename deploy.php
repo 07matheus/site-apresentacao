@@ -1,8 +1,11 @@
 <?php
 
+if(!file_exists('LogDeploy')) file_put_contents('LogDeploy', json_encode([]));
 
-$log = [
-  date('Y-m-d Y:m:i') => $_POST
+$logAtual = [
+  'horario' => date('Y-m-d H:i:s'),
+  'header'  => getallheaders(),
+  'body' => $_REQUEST
 ];
 
-file_put_contents('LogDeploy', json_encode($log));
+file_put_contents('LogDeploy', json_encode($logAtual));
