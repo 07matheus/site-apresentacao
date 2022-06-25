@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.flex-container, .row, .column-1, .column-2, .column-3, .column-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  flex-direction: row;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+.column-1, .column-2, .column-3, .column-4 {
+  flex-direction: column;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+.column-1 {
+  flex: 1 auto;
+}
+.column-2 {
+  flex: 2 auto;
+}
+.column-3 {
+  flex: 3 auto;
+}
+.column-4 {
+  flex: 4 auto;
+}
