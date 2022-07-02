@@ -1,0 +1,24 @@
+.banner-jogo {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.titulo-jogo {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px;
+  color: #0bff0b;
+}
+.descricao-jogo > p {
+  width: 80%;
+  margin-bottom: 15px;
+  text-indent: 25px;
+}
+.botao-baixar {
+  padding: 15px 25px;
+  background: #0eca0e;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+}
