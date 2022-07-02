@@ -5,7 +5,6 @@ define('CAMINHO', $configs['CAMINHO']);
 define('ROOT', __DIR__);
 define('EMAIL', $configs['email']);
 
-
 /**
  * Função responsável por formatar o caminho de arquivo, para o formato conhecido do sistema operacional utilizado
  * @param  string      $fullPath     Caminho completo do arquivo
