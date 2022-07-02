@@ -1,0 +1,21 @@
+.cabecalho {
+  background-color: #111;
+  margin-top: 0;
+}
+.itens-menu {
+  width: 28%;
+  justify-content: space-between;
+}
+.item-menu {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 5px;
+  flex: 1;
+  justify-content: center;
+}
+.item-menu:hover {
+  border-bottom: 1px solid #fff;
+}
+.logotipo {
+  width: 145px;
+}

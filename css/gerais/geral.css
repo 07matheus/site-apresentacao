@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+}
+body {
+  background-image: var(--backgroundSite);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* MY FOUNDATION */
+.container {
+  max-width: 1920px;
+  margin: 10px auto;
+}
+.flex-container, .row, .column, .column-1, .column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .align-center, .align-end, .justify-center, .justify-end {
+  display: flex;
+}
+.row {
+  flex-flow: row wrap;
+}
+.column, .column-1, .column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8 {
+  flex-flow: column wrap;
+  flex: 1 1 auto;
+  margin: 5px;
+  padding: 5px;
+}
+.column-1 {
+  max-width: 90%;
+  min-width: 90%;
+}
+.column-2 {
+  max-width: 80%;
+  min-width: 80%;
+}
+.column-2 {
+  max-width: 70%;
+  min-width: 70%;
+}
+.column-3 {
+  max-width: 60%;
+  min-width: 60%;
+}
+.column-4 {
+  max-width: 50%;
+  min-width: 50%;
+}
+.column-5 {
+  max-width: 40%;
+  min-width: 40%;
+}
+.column-6 {
+  max-width: 30%;
+  min-width: 30%;
+}
+.column-7 {
+  max-width: 20%;
+  min-width: 20%;
+}
+.column-8 {
+  max-width: 10%;
+  min-width: 10%;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: end;
+}
+/* MY FOUNDATION */
