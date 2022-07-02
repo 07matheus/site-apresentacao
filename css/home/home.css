@@ -1,10 +1,19 @@
 #slider {
   overflow-x: hidden;
 }
+.slider-item-botao > a {
+  padding: 10px 30px;
+  background-color: #0e0ed0;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 25px;
+}
 .slider-item:nth-child(2n) {
   flex-direction: row-reverse;
 }
-.slider-item :nth-child(n) {
+.slider-item > :nth-child(n) {
   margin: 0 auto;
   padding: 0;
 }
