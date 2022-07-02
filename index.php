@@ -36,7 +36,10 @@ switch($_GET['url']) {
   break;
 
   default:
-    exit;
+    header("HTTP/1.0 404 Not Found");
+    $configLayout['pagina'] = '- Não encontrado';
+    $configLayout['dir']    = '404';
+    $template               = setDirectorySeparator(__DIR__ . '/php/404.php');
   break;
 }
 
